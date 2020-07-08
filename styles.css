@@ -21,26 +21,26 @@
 }
 
 :root {
-    --website-background-color: ${website-background-color};
-    --website-content-background-color: ${website-content-background-color};
-    --website-text-color: ${website-text-color};
-    --header-color: ${header-color};
-    --navigation-items-color: ${navigation-items-color};
-    --navigation-items-text-color: ${navigation-items-text-color};
-    --hover-color: ${hover-color};
-    --video-background-color: ${video-color};
+    --website-background-color: #ffffff;
+    --website-content-background-color: #ececeb;
+    --website-text-color: #000000;
+    --header-color: #e25822;
+    --navigation-items-color: #10316b;
+    --navigation-items-text-color: #ffffff;
+    --hover-color: #e4eaf5;
+    --video-background-color: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --website-background-color: ${website-background-color-dark};
-        --website-content-background-color: ${website-content-background-color-dark};
-        --website-text-color: ${website-text-color-dark};
-        --header-color: ${header-color-dark};
-        --navigation-items-color: ${navigation-items-color-dark};
-        --navigation-items-text-color: ${navigation-items-text-color-dark};
-        --hover-color: ${hover-color-dark};
-        --video-background-color: ${video-color-dark};
+        --website-background-color: #222831;
+        --website-content-background-color: #393e46;
+        --website-text-color: #eeeeee;
+        --header-color: #00adb5;
+        --navigation-items-color: #008A90;
+        --navigation-items-text-color: #eeeeee;
+        --hover-color: #6e5773;
+        --video-background-color: #ffffff;
     }
 }
 
